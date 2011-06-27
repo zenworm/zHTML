@@ -1,0 +1,46 @@
+@import url("reset.css");
+
+/**
+	[GLOBAL]
+==================================
+**/
+	
+body { background:white; color:black; font:16px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+/**
+	[Typography]
+==================================
+**/
+
+h1,h2,h3,h4,h5,h6 { margin-bottom:24px; }
+h1 { font-size:18px; }
+h2 { font-size:16px; margin-bottom:12px; }
+h3 { font-size:14px; }
+p {}
+a {}
+
+/** 
+	[Layout] 
+==================================
+**/
+
+/*Header*/
+header[role="banner"] {}
+	
+/*Main*/
+[role="main"] {}
+	
+/*Complementary*/
+[role="complementary"] {}
+	
+/*Footer*/
+footer[role="contentinfo"] {}
+
+/**
+	[Media Queries]
+==================================
+**/
+
+@media screen and (max-width: 1400px) {
+  
+}
